@@ -22,7 +22,7 @@ services:
       - "traefik.enable=true"
 
   php:
-    image: php:fpm
+    image: php:8.2.27-fpm
     volumes:
       - ./api:/var/www/html
 
