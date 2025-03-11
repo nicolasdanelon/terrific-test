@@ -19,6 +19,7 @@ services:
     labels:
       - "traefik.http.routers.static.rule=Host(`static.localhost`)"
       - "traefik.http.routers.static.entrypoints=web"
+      - "traefik.enable=true"
 
   php:
     image: php:fpm
@@ -34,5 +35,6 @@ services:
     labels:
       - "traefik.http.routers.api.rule=Host(`api.localhost`)"
       - "traefik.http.routers.api.entrypoints=web"
+      - "traefik.enable=true"
     depends_on:
       - php
