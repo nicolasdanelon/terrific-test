@@ -1,0 +1,20 @@
+{
+  "name": "nicolasdanelon/api",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NicolasDanelon\\Api\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nicolas Danelon",
+      "email": "nicolasdanelon@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "fakerphp/faker": "2.0.x-dev"
+  }
+}

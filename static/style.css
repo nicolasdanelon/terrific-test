@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+p {
+    padding: 1rem;
+    color: yellowgreen;
+}
+
+p:nth-child(odd) {
+    color: purple;
+}
